@@ -1,0 +1,19 @@
+<ion-header [translucent]="true">
+ <app-toolbar></app-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+ <ion-card *ngIf="libroRecibido != undefined" id="card_css">
+  <ion-card-title>{{libroRecibido.titulo}}</ion-card-title>
+  <ion-list>
+    <ion-item>{{libroRecibido.anioPublicacion}}</ion-item>
+    <ion-item>{{libroRecibido.autor}}</ion-item>
+    <ion-item>{{libroRecibido.sinopsis}}</ion-item>
+  </ion-list>
+  <ion-fab>
+    <ion-fab-button color="secondary" (click)="addLibro()">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+   </ion-fab>   
+ </ion-card>
+</ion-content>

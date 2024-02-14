@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+  <app-toolbar></app-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card *ngIf="libroConsultado != undefined" id="card_css">
+    <ion-item color="danger">
+      <ion-input [(ngModel)]="titulo" contenteditable="true" placeholder="{{libroConsultado.titulo}}">
+      </ion-input>
+    </ion-item>
+    <ion-item color="danger">
+      <ion-input [(ngModel)]="autor" contenteditable="true" placeholder="{{libroConsultado.autor}}">
+      </ion-input>
+    </ion-item>
+    <ion-item color="danger">
+      <ion-input [(ngModel)]="anioPublicacion" contenteditable="true"
+        placeholder="{{libroConsultado.anioPublicacion}}">
+      </ion-input>
+    </ion-item>
+    <ion-item color="danger">
+      <ion-input [(ngModel)]="sinopsis" contenteditable="true" placeholder="{{libroConsultado.sinopsis}}">
+      </ion-input>
+    </ion-item>
+    <ion-fab (click)="set()">
+      <ion-fab-button color="danger">
+        <ion-icon name="save-outline"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+  </ion-card>
+</ion-content>

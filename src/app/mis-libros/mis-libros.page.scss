@@ -1,0 +1,10 @@
+#card_vacio_css{
+    padding: 20em;
+}
+
+/* En tu archivo de estilos CSS */
+#card_css {
+    padding: 15em;
+    position: relative; /* Asegura que los elementos hijos con posición absoluta se posicionen con respecto a este */
+  }
+

@@ -1,0 +1,24 @@
+<ion-header>
+	<ion-toolbar color="dark">
+		<ion-title>Useless shop!</ion-title>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+	<form (ngSubmit)="login()" [formGroup]="credentials">
+		
+		<ion-item fill="solid" class="ion-margin-bottom">
+			<ion-input type="email" placeholder="Email" formControlName="email"></ion-input>
+			<ion-note slot="error" *ngIf="(email!.dirty || email!.touched) && email!.errors">Email inválido</ion-note>
+		</ion-item>
+
+		<ion-item fill="solid" class="ion-margin-bottom">
+			<ion-input type="password" placeholder="Password" formControlName="password"></ion-input>
+			<ion-note slot="error" *ngIf="(password!.dirty || password!.touched) && password!.errors">La contraseña
+				necesita seis caracteres</ion-note>
+		</ion-item>
+
+		<ion-button color="danger" type="submit" expand="block" [disabled]="!credentials.valid">Log in</ion-button>
+		<ion-button color="warning" type="button" expand="block" (click)="register()">Create account</ion-button>
+	</form>
+</ion-content>

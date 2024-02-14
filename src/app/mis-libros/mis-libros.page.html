@@ -1,0 +1,36 @@
+<ion-header [translucent]="true">
+  <app-toolbar></app-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div *ngIf="misLibros != undefined">
+    <ion-card *ngFor="let libro of misLibros" id="card_css">
+      <ion-card-title>{{libro.titulo}}</ion-card-title>
+      <ion-list>
+        <ion-item>{{libro.autor}}</ion-item>
+        <ion-item>{{libro.anioPublicacion}}</ion-item>
+        <ion-item>{{libro.sinopsis}}</ion-item>
+      </ion-list>
+      
+        
+          
+            <ion-button color="danger" (click)="deleteLibro(libro.idFB)" id="boton_borrar_css" >
+              <ion-icon name="trash"></ion-icon>
+            </ion-button>
+          
+          
+          
+            <ion-button color="warning" id="boton_editar_css" [routerLink]="['/editar',libro.idFB]">
+              <ion-icon name="pencil-outline"></ion-icon>
+            </ion-button>
+          
+    
+    </ion-card>
+    
+    <ion-card id="card_vacio_css" *ngIf="misLibros.length == 0 || misLibros == undefined">
+      <ion-card-title>No has añadido ningún libro !!</ion-card-title>
+    </ion-card>
+  </div>
+</ion-content>
+
+

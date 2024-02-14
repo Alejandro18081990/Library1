@@ -1,0 +1,16 @@
+<ion-toolbar color="dark">
+  <ion-buttons slot="start">
+    <ion-back-button defaultHref="#"></ion-back-button>
+    <ion-title>Strange library !</ion-title>
+    <ion-button slot="end" [routerLink]="['/mis-libros']">
+      <ion-icon name="book-outline"></ion-icon>
+    </ion-button>
+    <link rel="stylesheet" href="./toolbar.component.scss">
+    <ion-text color="secondary">
+      <ion-title>Hola {{usuarioLogeado}}</ion-title>
+    </ion-text>
+  </ion-buttons>
+  <ion-button fill="solid" color="secondary" slot="end" (click)="logOut()">
+    <ion-icon name="log-out"></ion-icon>
+  </ion-button>
+</ion-toolbar>

@@ -1,0 +1,85 @@
+{
+    "libros": [
+      {
+        "id": 1,
+        "idFB": "",
+        "titulo": "Cien años de soledad",
+        "autor": "Gabriel García Márquez",
+        "anioPublicacion": 1967,
+        "sinopsis": "Esta novela narra la historia de la familia Buendía a lo largo de varias generaciones en el pueblo ficticio de Macondo. A través de elementos mágicos y realistas, García Márquez teje una trama que explora temas como el amor, la soledad, la guerra y la búsqueda de la verdad."
+      },
+      {
+        "id": 2,
+        "idFB": "",
+        "titulo": "1984",
+        "autor": "George Orwell",
+        "anioPublicacion": 1949,
+        "sinopsis": "Esta novela distópica presenta un mundo totalitario en el que el gobierno controla todos los aspectos de la vida de los ciudadanos. A través de la historia de Winston Smith, Orwell examina temas como la vigilancia, la manipulación de la información y la resistencia frente al poder opresivo."
+      },
+      {
+        "id": 3,
+        "idFB": "",
+        "titulo": "El principito",
+        "autor": "Antoine de Saint-Exupéry",
+        "anioPublicacion": 1943,
+        "sinopsis": "Considerada una obra maestra de la literatura infantil, esta novela narra el encuentro entre un piloto accidentado en el desierto del Sahara y un pequeño príncipe proveniente de otro planeta. A través de su viaje por diferentes planetas, el principito explora temas como la amistad, el amor y la importancia de ver más allá de lo visible."
+      },
+      {
+        "id": 4,
+        "idFB": "",
+        "titulo": "Don Quijote de la Mancha",
+        "autor": "Miguel de Cervantes",
+        "anioPublicacion": 1605,
+        "sinopsis": "Considerada una de las obras más importantes de la literatura española y universal, esta novela sigue las aventuras de Alonso Quijano, un hidalgo que enloquece al leer demasiados libros de caballería y decide convertirse en caballero andante. Acompañado por su fiel escudero Sancho Panza, Quijote vive numerosas aventuras que cuestionan la realidad y la ficción."
+      },
+      {
+        "id": 5,
+        "idFB": "",
+        "titulo": "Harry Potter y la piedra filosofal",
+        "autor": "J.K. Rowling",
+        "anioPublicacion": 1997,
+        "sinopsis": "El primer libro de la famosa serie de Harry Potter sigue las aventuras del joven mago Harry Potter mientras descubre su verdadera identidad como mago y comienza su educación en Hogwarts, una escuela de magia. Con la ayuda de sus amigos Hermione Granger y Ron Weasley, Harry enfrenta desafíos mágicos y descubre secretos sobre su pasado."
+      },
+      {
+        "id": 6,
+        "idFB": "",
+        "titulo": "El señor de los anillos",
+        "autor": "J.R.R. Tolkien",
+        "anioPublicacion": 1954,
+        "sinopsis": "Esta épica saga sigue la búsqueda del hobbit Frodo Bolsón para destruir un poderoso anillo que podría sumir a la Tierra Media en la oscuridad. Acompañado por un grupo de compañeros, incluido el mago Gandalf y los hobbits Sam, Merry y Pippin, Frodo se enfrenta a numerosos peligros mientras intenta cumplir su misión."
+      },
+      {
+        "id": 7,
+        "idFB": "",
+        "titulo": "Orgullo y prejuicio",
+        "autor": "Jane Austen",
+        "anioPublicacion": 1813,
+        "sinopsis": "Esta novela de Jane Austen sigue la historia de Elizabeth Bennet, una joven inteligente y decidida que se enfrenta a las expectativas sociales de la Inglaterra del siglo XIX. A través de sus encuentros con el enigmático Sr. Darcy y otros personajes, la novela explora temas como el amor, el matrimonio y la clase social."
+      },
+      {
+        "id": 8,
+        "idFB": "",
+        "titulo": "Crónica de una muerte anunciada",
+        "autor": "Gabriel García Márquez",
+        "anioPublicacion": 1981,
+        "sinopsis": "Esta novela corta narra el asesinato de Santiago Nasar en un pequeño pueblo caribeño y la serie de eventos que llevan a su muerte. A través de los testimonios de los habitantes del pueblo, García Márquez explora temas como la culpa, el honor y la inevitabilidad del destino."
+      },
+      {
+        "id": 9,
+        "idFB": "",
+        "titulo": "Matar a un ruiseñor",
+        "autor": "Harper Lee",
+        "anioPublicacion": 1960,
+        "sinopsis": "Esta novela ambientada en Alabama durante la Gran Depresión sigue la historia de la joven Scout Finch y su hermano Jem mientras su padre, el abogado Atticus Finch, defiende a un hombre negro acusado injustamente de violar a una mujer blanca. A través de su narrativa, Lee explora temas como la justicia, la moralidad y el racismo."
+      },
+      {
+        "id": 10,
+        "idFB": "",
+        "titulo": "El alquimista",
+        "autor": "Paulo Coelho",
+        "anioPublicacion": 1988,
+        "sinopsis": "Esta novela sigue la historia de Santiago, un joven pastor andaluz que sueña con encontrar un tesoro oculto en las pirámides de Egipto. A lo largo de su viaje, Santiago encuentra personajes que lo ayudan a descubrir su propio camino y a entender el verdadero significado de la vida y la felicidad."
+      }
+    ]
+  }
+  
